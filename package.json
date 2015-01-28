@@ -1,10 +1,10 @@
 {
     "name": "twee-static-extension",
     "preferGlobal": false,
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Dmitri Mesin <dmitri.mesin@gmail.com>",
-    "homepage": "https://github.com/mesin/twee-static-extension",
-    "description": "Static Files Middleware Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
+    "homepage": "https://github.com/tweeio/twee-static-extension",
+    "description": "Static Files Extension for Twee.io Framework - MVC Framework for Node.js based on Express.js",
     "license": "MIT",
     "dependencies": {
         "express": "*"
@@ -12,7 +12,7 @@
     "devDependencies": {},
     "repository": {
         "type": "git",
-        "url": "https://github.com/mesin/twee-static-extension.git"
+        "url": "https://github.com/tweeio/twee-static-extension.git"
     },
     "keywords": [
         "static",
@@ -32,6 +32,6 @@
         "api"
     ],
     "bugs": {
-        "url": "https://github.com/mesin/twee-static-extension/issues"
+        "url": "https://github.com/tweeio/twee-static-extension/issues"
     }
 }

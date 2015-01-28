@@ -27,7 +27,7 @@ module.exports.extension = function() {
     // ALWAYS serving files also in application/public => site.com/assets/
     application.use('/assets/', express.static(path.join(
         twee.getBaseDirectory(),
-        twee.getConfig('extension:twee-static:directory', 'public')
+        twee.getConfig('twee:extension:twee-static:directory', 'public')
     )));
     twee.emit('twee.setupStaticFilesServing.End');
 };

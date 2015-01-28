@@ -6,11 +6,32 @@
 [![npm](https://img.shields.io/npm/dm/localeval.svg)](https://github.com/tweeio/twee-framework)
 [![npm](https://img.shields.io/npm/l/express.svg)](https://github.com/tweeio/twee-framework)
 
-Static Files Middleware Extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js.
+Static Files Extension for Twee.io Framework - MVC Framework for Node.js and io.js based on Express.js.
 Handles all static files from `application/public/` -> `domain.com/assets/` and from modules: `moduleName/assets` -> `domain.com/assets/moduleName/`
 
 To install it use this command:
 
 ```
 npm install twee-static-extension --save
+```
+
+
+Editing `package.json` of your application:
+
+```
+"dependencies": {
+    "twee-static-extension": "*"
+}
+```
+
+Turning extension `ON` in `application/configs/twee.js`:
+
+```
+module.exports = {
+    "extensions": {
+        "Static": {
+            "module": "twee-static-extension"
+        }
+    }
+};
 ```
